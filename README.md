@@ -16,7 +16,7 @@
 
 ## The idea
 
-Swerve drivetrains are exceptionally capable in robotics competitions where mobility matters and robot-to-robot damage is limited. They offer true omnidirectional movement without giving up wheel traction—but their mechanical and software complexity has historically kept them out of reach for many FTC students.
+Swerve drivetrains are exceptionally capable in robotics competitions where mobility matters and robot to robot damage is limited. They offer true omnidirectional movement without giving up wheel traction—but their mechanical and software complexity has historically kept them out of reach for many FTC students.
 
 This project set out to change that by developing compact coaxial swerve modules that can be used to teach drivetrain design and programming, and that could eventually be produced at a price accessible to teams around the world.
 
@@ -28,8 +28,8 @@ This project set out to change that by developing compact coaxial swerve modules
 |:--|:--|:--|
 | **Architecture** | Coaxial module | Revised coaxial module |
 | **Module envelope** | Under 4 × 4 × 4 in | Less than 0.25 in taller |
-| **Shape** | L-shaped | Rectangular |
-| **Per-module actuation** | 1 motor + 1 servo | 1 motor + 1 servo |
+| **Shape** | L shaped | Rectangular |
+| **Per module actuation** | 1 motor + 1 servo | 1 motor + 1 servo |
 | **Mounting ecosystem** | Original custom layout | goBILDA, REV, and AndyMark |
 | **Primary goal** | Prove mechanical viability | Reduce cost and improve integration |
 
@@ -37,7 +37,7 @@ This project set out to change that by developing compact coaxial swerve modules
 
 The first prototype focused on making each pod as small as possible. At under **4 × 4 × 4 inches**, the module is among the smallest designs of its kind. A complete drivetrain was manufactured and assembled to test whether the concept was viable.
 
-Inside each module, 3D-printed structural parts support the shafts, gears, and bearings. Those shafts connect the drive motor and steering servo to the pod, giving each corner both wheel propulsion and independent steering.
+Inside each module, 3D printed structural parts support the shafts, gears, and bearings. Those shafts connect the drive motor and steering servo to the pod, giving each corner both wheel propulsion and independent steering.
 
 The chassis proved that the mechanical design worked, though its control code still had room to improve. The larger obstacle was manufacturing cost: custom components pushed each module to approximately **$400**, placing a complete chassis near **$1,300** and making the design impractical for mass production.
 
@@ -50,8 +50,8 @@ The chassis proved that the mechanical design worked, though its control code st
 The second iteration addresses the lessons learned from the original robot:
 
 - Replaces more custom components with widely available marketplace parts.
-- Reduces the total number of expensive custom-made components.
-- Changes the module body from an L-shaped layout to a cleaner rectangle.
+- Reduces the total number of expensive custom made components.
+- Changes the module body from an L shaped layout to a cleaner rectangle.
 - Adds a versatile hole pattern compatible with **goBILDA**, **REV**, and **AndyMark** build systems.
 - Accepts a height increase of less than one quarter inch in exchange for lower cost and easier sourcing.
 
