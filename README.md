@@ -4,9 +4,9 @@
 
 ### A compact, accessible coaxial swerve drivetrain for FIRST Tech Challenge
 
-[![Project Status](https://img.shields.io/badge/status-finished-22c55e?style=for-the-badge)](https://angelojamesny.com/ftc-coaxial-swerve)
-[![License: CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-8b5cf6?style=for-the-badge)](LICENSE)
-[![FTC](https://img.shields.io/badge/platform-FIRST_Tech_Challenge-0ea5e9?style=for-the-badge)](https://www.firstinspires.org/robotics/ftc)
+[![Project Status](https://img.shields.io/badge/status-finished-111111?style=for-the-badge)](https://angelojamesny.com/ftc-coaxial-swerve)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-3f3f46?style=for-the-badge)](LICENSE)
+[![FTC](https://img.shields.io/badge/platform-FIRST_Tech_Challenge-6b7280?style=for-the-badge)](https://www.firstinspires.org/robotics/ftc)
 
 **[Project page](https://angelojamesny.com/ftc-coaxial-swerve) · [Watch the tests](#test-videos) · [License & credit](#license--attribution)**
 
