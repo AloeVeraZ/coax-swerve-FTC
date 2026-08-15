@@ -6,7 +6,7 @@
 
 [![Status](https://img.shields.io/badge/Status-Complete-22c55e?style=flat-square)](#the-idea)
 [![Platform](https://img.shields.io/badge/Platform-FIRST_Tech_Challenge-00aeef?style=flat-square&logo=first&logoColor=white)](https://www.firstinspires.org/robotics/ftc)
-[![Architecture](https://img.shields.io/badge/Module-Coaxial_Drive_%2B_Steer-6f42c1?style=flat-square)](#at-a-glance)
+[![Architecture](https://img.shields.io/badge/Module-Coaxial_Drive_%2B_Steer-6f42c1?style=flat-square)](#prototype-iterations)
 [![License](https://img.shields.io/badge/License-CC_BY_4.0-f59e0b?style=flat-square)](LICENSE)
 
 <picture>
@@ -15,7 +15,8 @@
 
 An ultra-compact coaxial swerve drivetrain platform developed to democratize omnidirectional swerve mechanics and closed-loop control in FIRST Tech Challenge robotics.
 
-[Project Overview](#the-idea) | [Prototype Comparison](#at-a-glance) | [Test Videos](#test-videos) | [Design Evolution](#design-evolution) | [Project Page](https://angelojamesny.com/ftc-coaxial-swerve)
+<strong>Quick navigation:</strong><br>
+[Project Overview](#the-idea) | [Prototype Comparison](#prototype-iterations) | [Test Videos](#test-videos) | [Design Evolution](#design-evolution) | [Repository Files](#repository-structure)
 
 </div>
 
@@ -67,13 +68,19 @@ Click any locally hosted preview thumbnail to watch the physical bench and drivi
 
 ## Design Evolution
 
-```mermaid
-flowchart LR
-    A["Sub-4-Inch Concept"] --> B["First Prototype<br/>Mechanical Proof"]
-    B --> C["Cost & Sourcing Review"]
-    C --> D["Second Prototype<br/>COTS Integration"]
-    D --> E["Educational Platform<br/>Swerve Reference"]
-```
+<table>
+  <tr>
+    <td align="center"><strong>01 / Sub-4-Inch Concept</strong></td>
+    <td align="center">&rarr;</td>
+    <td align="center"><strong>02 / First Prototype</strong><br>Mechanical proof</td>
+    <td align="center">&rarr;</td>
+    <td align="center"><strong>03 / Cost Review</strong><br>Sourcing analysis</td>
+    <td align="center">&rarr;</td>
+    <td align="center"><strong>04 / Second Prototype</strong><br>COTS integration</td>
+    <td align="center">&rarr;</td>
+    <td align="center"><strong>05 / Educational Platform</strong><br>Swerve reference</td>
+  </tr>
+</table>
 
 ## Repository Structure
 
@@ -90,11 +97,3 @@ flowchart LR
 ## License & Attribution
 
 Original design, solid models, and documentation © 2025–2026 **Angelo Demetroulakos**. Licensed under the **[Creative Commons Attribution 4.0 International License](LICENSE)**.
-
----
-
-<div align="center">
-
-Designed and documented by **[Angelo Demetroulakos](https://angelojamesny.com)** · **[FTC Coaxial Swerve](https://angelojamesny.com/ftc-coaxial-swerve)**
-
-</div>

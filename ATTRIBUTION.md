@@ -6,13 +6,13 @@ When you copy, redistribute, remix, transform, or build upon this material, incl
 
 1. Credit **Angelo Demetroulakos** as the creator.
 2. Identify the work as **FTC Coaxial Swerve**.
-3. Link to the original project at <https://angelojamesny.com/ftc-coaxial-swerve> or to this repository.
+3. Link to the original repository at <https://github.com/AloeVeraZ/coax-swerve-FTC>.
 4. Link to the license at <https://creativecommons.org/licenses/by/4.0/>.
 5. State whether you changed the material.
 
 ## Suggested credit
 
-> FTC Coaxial Swerve by Angelo Demetroulakos, licensed under CC BY 4.0. Original: https://angelojamesny.com/ftc-coaxial-swerve. Changes: [describe changes or write “none”].
+> FTC Coaxial Swerve by Angelo Demetroulakos, licensed under CC BY 4.0. Source: https://github.com/AloeVeraZ/coax-swerve-FTC. Changes: [describe changes or write “none”].
 
 Attribution must be presented in a reasonable manner and may not imply that Angelo Demetroulakos endorses you or your use.
 
