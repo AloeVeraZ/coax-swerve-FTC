@@ -2,131 +2,99 @@
 
 # FTC Coaxial Swerve
 
-### A compact, accessible coaxial swerve drivetrain for FIRST Tech Challenge
+### A compact, accessible coaxial swerve module and drivetrain for FIRST Tech Challenge
 
-[![Project Status](https://img.shields.io/badge/status-finished-22C55E?style=for-the-badge&labelColor=15803D)](https://angelojamesny.com/ftc-coaxial-swerve)
-<img alt="License: CC BY 4.0" src="https://img.shields.io/badge/license-CC_BY_4.0-F59E0B?style=for-the-badge&labelColor=B45309">
-[![FTC](https://img.shields.io/badge/platform-FIRST_Tech_Challenge-00AEEF?style=for-the-badge&labelColor=0369A1)](https://www.firstinspires.org/robotics/ftc)
+[![Status](https://img.shields.io/badge/Status-Complete-22c55e?style=flat-square)](#the-idea)
+[![Platform](https://img.shields.io/badge/Platform-FIRST_Tech_Challenge-00aeef?style=flat-square&logo=first&logoColor=white)](https://www.firstinspires.org/robotics/ftc)
+[![Architecture](https://img.shields.io/badge/Module-Coaxial_Drive_%2B_Steer-6f42c1?style=flat-square)](#at-a-glance)
+[![License](https://img.shields.io/badge/License-CC_BY_4.0-f59e0b?style=flat-square)](LICENSE)
 
-**[Project page](https://angelojamesny.com/ftc-coaxial-swerve) · [Watch the tests](#test-videos) · [License & credit](#license--attribution)**
+<picture>
+  <img src="assets/images/first-prototype.png" alt="First FTC coaxial swerve prototype CAD assembly" width="820" draggable="false">
+</picture>
+
+An ultra-compact coaxial swerve drivetrain platform developed to democratize omnidirectional swerve mechanics and closed-loop control in FIRST Tech Challenge robotics.
+
+[Project Overview](#the-idea) | [Prototype Comparison](#at-a-glance) | [Test Videos](#test-videos) | [Design Evolution](#design-evolution) | [Project Page](https://angelojamesny.com/ftc-coaxial-swerve)
 
 </div>
 
 ---
 
-## The idea
+## The Idea
 
-Swerve drivetrains are exceptionally capable in robotics competitions where mobility matters and robot to robot damage is limited. They offer true omnidirectional movement without giving up wheel traction—but their mechanical and software complexity has historically kept them out of reach for many FTC students.
+Swerve drivetrains provide agility and high-speed directional changes by steering all wheels independently. Unlike Mecanum wheels, swerve modules use solid rubber contact wheels to deliver full pushing force and zero slip during acceleration.
 
-This project set out to change that by developing compact coaxial swerve modules that can be used to teach drivetrain design and programming, and that could eventually be produced at a price accessible to teams around the world.
+This project developed a miniaturized coaxial swerve module specifically optimized for the constraints, build patterns, and budget realities of FTC robotics teams.
 
-> **Project status:** Finished. The drivetrain now serves as an educational platform for swerve design and programming.
+| System Parameter | First Prototype | Second Prototype (Refined) |
+| --- | --- | --- |
+| Kinematic type | Coaxial drive and steering | Coaxial drive and steering |
+| Module envelope | Under 4" × 4" × 4" (Ultra-compact) | ~4.25" height (Marketplace-optimized) |
+| Form factor | L-shaped asymmetrical body | Symmetrical rectangular housing |
+| Actuators per module | 1 DC motor + 1 continuous servo | 1 DC motor + 1 continuous servo |
+| Mounting ecosystem | Custom bolt pattern | Multi-pattern: goBILDA, REV, & AndyMark |
+| Manufacturing objective | Proof of concept and packaging | Sourcing simplification & bill of materials reduction |
 
-## At a glance
+> [!NOTE]
+> **Project Status:** Complete. The design serves as an educational open-source reference for FTC swerve kinematics, mechanical packaging, and control software.
 
-| | First prototype | Second prototype |
-|:--|:--|:--|
-| **Architecture** | Coaxial module | Revised coaxial module |
-| **Module envelope** | Under 4 × 4 × 4 in | Less than 0.25 in taller |
-| **Shape** | L shaped | Rectangular |
-| **Per module actuation** | 1 motor + 1 servo | 1 motor + 1 servo |
-| **Mounting ecosystem** | Original custom layout | goBILDA, REV, and AndyMark |
-| **Primary goal** | Prove mechanical viability | Reduce cost and improve integration |
+## Prototype Iterations
 
-## First prototype
+### 01 / First Prototype (Sub-4" Envelope)
+Engineered for minimum physical volume, packing coaxial bevel gears, thrust bearings, and dual shafts within a 4-inch cube. While mechanically functional, heavy reliance on custom-turned shafts and complex 3D-printed housings increased production costs to ~$400 per module.
 
-The first prototype focused on making each pod as small as possible. At under **4 × 4 × 4 inches**, the module is among the smallest designs of its kind. A complete drivetrain was manufactured and assembled to test whether the concept was viable.
+---
 
-Inside each module, 3D printed structural parts support the shafts, gears, and bearings. Those shafts connect the drive motor and steering servo to the pod, giving each corner both wheel propulsion and independent steering.
+### 02 / Second Prototype (Marketplace Integration)
+Redesigned to prioritize cost efficiency and accessibility:
+- Replaced specialty custom components with standard off-the-shelf gears, bearings, and shafts.
+- Re-architected the frame into a clean rectangular profile with multi-standard mounting grids (goBILDA 16mm, REV 8mm, AndyMark).
+- Maintained a sub-4.25" total height while significantly lowering fabrication barriers.
 
-The chassis proved that the mechanical design worked, though its control code still had room to improve. The larger obstacle was manufacturing cost: custom components pushed each module to approximately **$400**, placing a complete chassis near **$1,300** and making the design impractical for mass production.
+<div align="center">
+  <img src="assets/images/second-prototype.webp" alt="Second FTC coaxial swerve prototype CAD render" width="750">
+</div>
 
-<p align="center">
-  <img src="assets/images/first-prototype.png" alt="First FTC coaxial swerve prototype CAD assembly" width="900">
-</p>
+## Test Videos
 
-## Second prototype
+Click any locally hosted preview thumbnail to watch the physical bench and driving tests on YouTube:
 
-The second iteration addresses the lessons learned from the original robot:
+| First Prototype Bench Test | Second Prototype Drive Test | Second Prototype Module Test |
+| :---: | :---: | :---: |
+| [![Watch Coaxial Swerve Test](assets/video-thumbnails/first-prototype-test.webp)](https://www.youtube.com/watch?v=wlv9R7z8qWg) | [![Watch Drive Test Swerve](assets/video-thumbnails/second-prototype-drive-test.webp)](https://www.youtube.com/watch?v=rI8ipH3kocA) | [![Watch Coaxial Swerve Test 3627](assets/video-thumbnails/second-prototype-module-test.webp)](https://www.youtube.com/watch?v=rHLFf1NIRc8) |
+| **[Watch Bench Test](https://www.youtube.com/watch?v=wlv9R7z8qWg)** | **[Watch Driving Test](https://www.youtube.com/watch?v=rI8ipH3kocA)** | **[Watch Module Test](https://www.youtube.com/watch?v=rHLFf1NIRc8)** |
 
-- Replaces more custom components with widely available marketplace parts.
-- Reduces the total number of expensive custom made components.
-- Changes the module body from an L shaped layout to a cleaner rectangle.
-- Adds a versatile hole pattern compatible with **goBILDA**, **REV**, and **AndyMark** build systems.
-- Accepts a height increase of less than one quarter inch in exchange for lower cost and easier sourcing.
-
-<p align="center">
-  <img src="assets/images/second-prototype.webp" alt="Second FTC coaxial swerve prototype CAD render" width="900">
-</p>
-
-## Test videos
-
-GitHub does not support embedded YouTube players inside a README. Select any preview below to watch the original test on YouTube.
-
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <a href="https://www.youtube.com/watch?v=wlv9R7z8qWg">
-        <img src="assets/video-thumbnails/first-prototype-test.webp" alt="Watch Coaxial Swerve Test" width="100%">
-      </a>
-      <br><strong>Coaxial Swerve Test</strong>
-      <br><sub>First prototype</sub>
-    </td>
-    <td width="33%" align="center">
-      <a href="https://www.youtube.com/watch?v=rI8ipH3kocA">
-        <img src="assets/video-thumbnails/second-prototype-drive-test.webp" alt="Watch Drive Test Swerve" width="100%">
-      </a>
-      <br><strong>Drive Test Swerve</strong>
-      <br><sub>Second prototype drive test</sub>
-    </td>
-    <td width="33%" align="center">
-      <a href="https://www.youtube.com/watch?v=rHLFf1NIRc8">
-        <img src="assets/video-thumbnails/second-prototype-module-test.webp" alt="Watch Coaxial Swerve Test 3627" width="100%">
-      </a>
-      <br><strong>Coaxial Swerve Test 3627</strong>
-      <br><sub>Second prototype module test</sub>
-    </td>
-  </tr>
-</table>
-
-## Design evolution
+## Design Evolution
 
 ```mermaid
 flowchart LR
-    A["Compact concept"] --> B["First prototype<br/>Mechanical proof"]
-    B --> C["Cost and packaging review"]
-    C --> D["Second prototype<br/>Generic components"]
-    D --> E["Education platform<br/>Design + programming"]
+    A["Sub-4-Inch Concept"] --> B["First Prototype<br/>Mechanical Proof"]
+    B --> C["Cost & Sourcing Review"]
+    C --> D["Second Prototype<br/>COTS Integration"]
+    D --> E["Educational Platform<br/>Swerve Reference"]
 ```
 
-## Repository contents
+## Repository Structure
 
 ```text
 .
 ├── assets/
-│   ├── images/              # Full-resolution prototype images
-│   └── video-thumbnails/    # Local previews for the three test videos
-├── ATTRIBUTION.md           # Ready-to-use credit instructions
-├── LICENSE                  # Creative Commons Attribution 4.0 legal code
-└── README.md                # Project story, prototypes, and test media
+│   ├── images/              # Full-resolution prototype solid models and renders
+│   └── video-thumbnails/    # Local preview assets for YouTube test footage
+├── ATTRIBUTION.md           # Ready-to-use citation and attribution guidelines
+├── LICENSE                  # Creative Commons Attribution 4.0 International
+└── README.md                # System documentation
 ```
 
-## License & attribution
+## License & Attribution
 
-© 2025–2026 **Angelo Demetroulakos**.
-
-The original project text, images, and design documentation in this repository are licensed under the **[Creative Commons Attribution 4.0 International License](LICENSE)**. You may share and adapt them—including commercially—but you **must give appropriate credit**, link to the license, and indicate whether you made changes.
-
-A copy without the required attribution is not compliant with the license. See [ATTRIBUTION.md](ATTRIBUTION.md) for a ready-to-use credit line and the exact reuse checklist.
-
-YouTube and FIRST names, marks, and platform elements remain the property of their respective owners. Linked videos remain hosted on YouTube.
+Original design, solid models, and documentation © 2025–2026 **Angelo Demetroulakos**. Licensed under the **[Creative Commons Attribution 4.0 International License](LICENSE)**.
 
 ---
 
 <div align="center">
 
-Designed and documented by **[Angelo Demetroulakos](https://angelojamesny.com)**
-
-[GitHub](https://github.com/TheTheAloe) · [LinkedIn](https://www.linkedin.com/in/angelo-demetroulakos) · [Printables](https://www.printables.com/@Aloe_448659)
+Designed and documented by **[Angelo Demetroulakos](https://angelojamesny.com)** · **[FTC Coaxial Swerve](https://angelojamesny.com/ftc-coaxial-swerve)**
 
 </div>
