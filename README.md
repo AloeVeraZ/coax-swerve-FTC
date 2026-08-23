@@ -94,6 +94,6 @@ Click any locally hosted preview thumbnail to watch the physical bench and drivi
 └── README.md                # System documentation
 ```
 
-## License & Attribution
+## License
 
-Original design, solid models, and documentation © 2025–2026 **Angelo Demetroulakos**. Licensed under the **[Creative Commons Attribution 4.0 International License](LICENSE)**.
+This project is available under the [Creative Commons Attribution 4.0 International License](LICENSE).
