@@ -38,12 +38,12 @@ This project developed a miniaturized coaxial swerve module specifically optimiz
 | Manufacturing objective | Proof of concept and packaging | Sourcing simplification & bill of materials reduction |
 
 > [!NOTE]
-> **Project Status:** Complete. The design serves as an educational open-source reference for FTC swerve kinematics, mechanical packaging, and control software.
+> **Project status:** Complete. I left the CAD and notes here as a reference for FTC swerve packaging and control.
 
 ## Prototype Iterations
 
 ### 01 / First Prototype (Sub-4" Envelope)
-Engineered for minimum physical volume, packing coaxial bevel gears, thrust bearings, and dual shafts within a 4-inch cube. While mechanically functional, heavy reliance on custom-turned shafts and complex 3D-printed housings increased production costs to ~$400 per module.
+The first version packed coaxial bevel gears, thrust bearings, and two shafts into a four-inch cube. It worked, but the custom-turned shafts and complicated printed housing pushed the cost to about $400 per module.
 
 ---
 
