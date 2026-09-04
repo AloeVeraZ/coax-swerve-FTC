@@ -48,6 +48,9 @@ The first version packed coaxial bevel gears, thrust bearings, and two shafts in
 ---
 
 ### 02 / Second Prototype (Marketplace Integration)
+
+The second prototype was intended to be the next step toward turning the module into a proper product that FTC teams could buy. However, with FTC's announced transition away from existing brushed DC motors and standalone servos toward a new actuator system in coming seasons, we decided not to pursue selling this design.
+
 Redesigned to prioritize cost efficiency and accessibility:
 - Replaced specialty custom components with standard off-the-shelf gears, bearings, and shafts.
 - Re-architected the frame into a clean rectangular profile with multi-standard mounting grids (goBILDA 16mm, REV 8mm, AndyMark).
