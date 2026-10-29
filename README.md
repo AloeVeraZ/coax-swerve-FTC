@@ -57,7 +57,7 @@ Redesigned to prioritize cost efficiency and accessibility:
 - Maintained a sub-4.25" total height while significantly lowering fabrication barriers.
 
 <div align="center">
-  <img src="assets/images/second-prototype.webp" alt="Second FTC coaxial swerve prototype CAD render" width="750">
+  <picture><img src="assets/images/second-prototype.webp" alt="Second FTC coaxial swerve prototype CAD render" width="750"></picture>
 </div>
 
 ## Test Videos
